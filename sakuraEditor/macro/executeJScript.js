@@ -1,5 +1,5 @@
 // === マクロ内容 ===================================================
-// 選択範囲をjavascriptとして実行する。
+// 選択範囲をJScriptとして実行する。
 // 実行時のファイル最下部に出力結果を出力する。
 // 出力には、echo(text)を利用できる。
 // 
@@ -21,7 +21,7 @@
 	Editor.GoFileEnd();
 	Editor.InsText(macro.lineSeparator);
 	Editor.InsText(macro.lineSeparator);
-	Editor.InsText("// === javascript実行結果 ========================="
+	Editor.InsText("// === JScript実行結果 ========================="
 			+ macro.lineSeparator);
 	eval(macro.selectedString);
 
