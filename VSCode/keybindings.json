@@ -1,0 +1,83 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "deleteLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+h",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+b",
+        "command": "cursorWordStartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+i",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.action.selectAll",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "alt+p",
+        "command": "cursorPageUp",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+      },
+      {
+        "key": "alt+n",
+        "command": "cursorPageDown",
+        "when": "textInputFocus"
+      }
+]
