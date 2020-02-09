@@ -64,20 +64,28 @@
         "key": "ctrl+p",
         "command": "cursorUp",
         "when": "textInputFocus"
-      },
-      {
+    },
+    {
         "key": "alt+p",
         "command": "cursorPageUp",
         "when": "textInputFocus"
-      },
-      {
+    },
+    {
         "key": "ctrl+n",
         "command": "cursorDown",
         "when": "textInputFocus"
-      },
-      {
+    },
+    {
         "key": "alt+n",
         "command": "cursorPageDown",
         "when": "textInputFocus"
-      }
+    },
+    {
+        "key": "ctrl+m",
+        "command": "type",
+        "args": {
+            "text": "\n"
+        },
+        "when": "editorTextFocus && !editorReadonly"
+    }
 ]
